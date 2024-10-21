@@ -26,7 +26,8 @@ namespace CodingChallengeConsoleCollection
                     "2 - Sum of numbers to one number\n" +
                     "3 - Mars Rover Kata\n" +
                     "4 - Vowels and Consonants\n" +
-                    "5 - Reverse a string\n");
+                    "5 - Reverse a string\n" +
+                    "6 - Factorial calculator");
 
 
                 string userInput = Console.ReadLine();
@@ -48,6 +49,9 @@ namespace CodingChallengeConsoleCollection
                         break;
                     case "5":
                         ReverseAString.Program.Run();
+                        break;
+                    case "6":
+                        FactorialCalculator.Program.Run();
                         break;
                     default:
                         Console.Clear();
