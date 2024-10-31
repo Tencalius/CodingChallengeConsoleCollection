@@ -16,7 +16,9 @@ namespace VowelsAndConsonants
             var finalScore = CountVowelsAndConsonantsMethod(input);
             Console.WriteLine($"Vowels: {finalScore.vowels} \nConsonants: {finalScore.consonants}");
 
-            Run();
+            Console.WriteLine("Hit Enter to return to the main menu");
+            Console.ReadLine();
+            
         }
 
 

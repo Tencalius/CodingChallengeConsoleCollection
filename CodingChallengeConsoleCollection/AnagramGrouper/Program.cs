@@ -49,6 +49,8 @@ namespace CodingChallengeConsoleCollection.AnagramGrouper
                 Console.WriteLine($"[{string.Join(", ", group)}]");
             }
 
+            Console.WriteLine("Hit Enter to return to the main menu");
+            Console.ReadLine();
 
         }
 

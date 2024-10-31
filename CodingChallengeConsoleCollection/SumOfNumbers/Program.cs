@@ -22,8 +22,8 @@
 
 
                 Console.WriteLine($"Result was: {outputValue}\n");
-
-                Run();
+                Console.WriteLine("Hit Enter to return to the main menu");
+                Console.ReadLine();
 
             }
 

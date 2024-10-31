@@ -18,6 +18,9 @@ namespace CodingChallengeConsoleCollection.FactorialCalculator
 
             Console.WriteLine($"The factorial of {n} is {result}");
 
+            Console.WriteLine("Hit Enter to return to the main menu");
+            Console.ReadLine();
+
         }
 
 

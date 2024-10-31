@@ -45,6 +45,8 @@ namespace BowlingKataApp
             finalScore = Utilities.CalculateFinalScore(allScores);
 
             Console.WriteLine($"Your final score was  {finalScore}");
+            Console.WriteLine("Press Enter to return to the main menu");
+            Console.ReadLine();
         }
     }
 

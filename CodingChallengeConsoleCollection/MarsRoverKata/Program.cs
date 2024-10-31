@@ -19,7 +19,14 @@ namespace MarsRoverKata
                 map.PrintMap();
 
                 Console.WriteLine("Enter L for left turn, R for right turn, F for forward");
+                Console.WriteLine("Or enter 0 to return to main menu");
                 string userInput = Console.ReadLine();
+
+                if (userInput == "0")
+                {
+                    return;
+                }
+
                 Console.WriteLine();
 
                 if (userInput.Length > 0)

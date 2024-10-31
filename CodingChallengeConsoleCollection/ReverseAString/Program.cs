@@ -18,7 +18,9 @@ namespace ReverseAString
 
             Console.WriteLine(str);
 
-            Run();
+
+            Console.WriteLine("Hit Enter to return to the main menu");
+            Console.ReadLine();
         }
 
 
