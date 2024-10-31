@@ -27,7 +27,8 @@ namespace CodingChallengeConsoleCollection
                     "3 - Mars Rover Kata\n" +
                     "4 - Vowels and Consonants\n" +
                     "5 - Reverse a string\n" +
-                    "6 - Factorial calculator");
+                    "6 - Factorial calculator\n" +
+                    "7 - Anagram grouper");
 
 
                 string userInput = Console.ReadLine();
@@ -52,6 +53,9 @@ namespace CodingChallengeConsoleCollection
                         break;
                     case "6":
                         FactorialCalculator.Program.Run();
+                        break;
+                    case "7":
+                        AnagramGrouper.Program.Run();
                         break;
                     default:
                         Console.Clear();
