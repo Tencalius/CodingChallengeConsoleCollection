@@ -25,6 +25,7 @@ namespace CodingChallengeConsoleCollection
                         "6 - Factorial calculator\n" +
                         "7 - Anagram grouper\n" +
                         "8 - Palindrome checker\n" +
+                        "9 - Number to LCD\n" +
                         "0 - Exit\n");
 
 
@@ -56,6 +57,9 @@ namespace CodingChallengeConsoleCollection
                             break;
                         case "8":
                             PalindromeDetector.Program.Run();
+                            break;
+                        case "9":
+                            NumberToLCD.Program.Run();
                             break;
                         case "0":
                             break;
